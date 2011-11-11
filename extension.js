@@ -13,11 +13,9 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  */
-const St = imports.gi.St;
+ 
 const Main = imports.ui.main;
-const Shell = imports.gi.Shell;
-const StatusMenu = imports.ui.statusMenu; 
 
-function main() {
-    let statusMenu = Main.panel._statusmenu._name.destroy();
+function init() {
+    let statusMenu = Main.panel._statusArea.userMenu._name.destroy();
 }
