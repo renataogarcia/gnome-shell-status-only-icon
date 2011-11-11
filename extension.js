@@ -16,6 +16,12 @@
  
 const Main = imports.ui.main;
 
-function init() {
-    let statusMenu = Main.panel._statusArea.userMenu._name.destroy();
+function init() {}
+
+function enable() {
+    Main.panel._statusArea.userMenu._name.hide();
+}
+
+function disable() {
+    Main.panel._statusArea.userMenu._name.show();
 }

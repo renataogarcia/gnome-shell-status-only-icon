@@ -1,3 +1,9 @@
+status-only-icon 1.1.1 (2011-11-11)
+-----------------------------------
+ - Add enable method
+ - Add disable method
+ - Fix a bug 
+ 
 status-only-icon 1.1.0 (2011-11-11)
 -----------------------------------
  - Update for GNOME 3.2
