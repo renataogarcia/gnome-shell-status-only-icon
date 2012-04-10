@@ -1,5 +1,5 @@
 {
-  "shell-version": ["3.2"],
+  "shell-version": ["3.2","3.3","3.4"],
   "uuid": "status-only-icon@llaumgui.com",
   "name": "status-only-icon",
   "description": "Display just an icon for status menu",
